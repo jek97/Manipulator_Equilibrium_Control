@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="Thomas" on="05/02/22||11:58:18" using="Simscape Multibody Link Version 7.2" from="Autodesk Inventor 2021 (Build 250183000. 183)"/>
+<ModelUnits mass="lbmass" length="millimeter"/>
+<DataUnits mass="kilogram" length="centimeter"/>
+<RootAssembly name="doublependolum.iam" uid="doublependolum.iam_{B55DBD1B-492F-A663-DD17-DEB3D16389C8}" version="{B20D0412-F4B1-047A-814B-8123F5D6005B}">
+<AssemblyFile name="doublependolum.iam" type="Inventor Assembly"/>
+<InstanceTree>
+<Instance name="base v1:1" grounded="true" uid="base v1:1" entityUid="base v1.ipt_{03A66BA0-4F6D-EEAC-ED7D-5FA2C20DBB4D}">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="engine1 v1:1" uid="engine1 v1:1" entityUid="engine1 v1.ipt_{4543D5C8-4880-C548-676B-6EA5E7EB5B8D}">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="link1 v1:1" uid="link1 v1:1" entityUid="link1 v1.ipt_{ED1CA21E-4BF2-35BB-3D13-4E8BAB93B7E0}">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="engine2 v1:1" uid="engine2 v1:1" entityUid="engine2 v1.ipt_{D010E70B-46FE-024C-315F-B5A1726E5F7E}">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 100 -1.7763568394e-15</Translation>
+</Transform>
+</Instance>
+<Instance name="link2 v1:1" uid="link2 v1:1" entityUid="link2 v1.ipt_{9F15D74A-4D66-440B-52EE-8099DCC91158}">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 100 0</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+</Constraints>
+<Joints>
+</Joints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="base v1.ipt" uid="base v1.ipt_{03A66BA0-4F6D-EEAC-ED7D-5FA2C20DBB4D}" version="{F3EDEA8E-A3CB-D7D7-3E25-7A0066934A49}">
+<PartFile name="base v1.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>699.93952469496219</Mass>
+<CenterOfMass>1.5542189497456135e-11 -22.935195732797197 -2.6112549558898078e-15</CenterOfMass>
+<Inertia>153138.2246144324 631222.65546157083 583144.64034328889 4.191912862063805e-11 0 -2.4961962766540929e-07</Inertia>
+</MassProperties>
+<GeometryFile name="base v1_ipt_81188a24.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.53000000000000003</Shininess>
+</VisualProperties>
+</Part>
+<Part name="engine1 v1.ipt" uid="engine1 v1.ipt_{4543D5C8-4880-C548-676B-6EA5E7EB5B8D}" version="{E7D65F06-DB28-CF86-FBBD-E5B60AE2E553}">
+<PartFile name="engine1 v1.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>88.781408390443744</Mass>
+<CenterOfMass>-9.8032296447150299e-10 2.5733436000543453e-15 5.1466872001086906e-15</CenterOfMass>
+<Inertia>25466.161082728453 25466.16039746263 5306.0760182021959 0 -2.2454972611740234e-06 3.6554411051417832e-12</Inertia>
+</MassProperties>
+<GeometryFile name="engine1 v1_ipt_fb54a7a4.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.53000000000000003</Shininess>
+</VisualProperties>
+</Part>
+<Part name="engine2 v1.ipt" uid="engine2 v1.ipt_{D010E70B-46FE-024C-315F-B5A1726E5F7E}" version="{97F2CE6C-C6B4-8E65-6235-CAE621A4DF0D}">
+<PartFile name="engine2 v1.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>88.781408390443744</Mass>
+<CenterOfMass>-9.8032553781510297e-10 0 0</CenterOfMass>
+<Inertia>25466.16108272846 25466.160397462634 5306.0760182022059 -3.6554411053657529e-12 -2.2454936057329176e-06 -3.6554411053657529e-12</Inertia>
+</MassProperties>
+<GeometryFile name="engine2 v1_ipt_68d5bfe6.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.53000000000000003</Shininess>
+</VisualProperties>
+</Part>
+<Part name="link1 v1.ipt" uid="link1 v1.ipt_{ED1CA21E-4BF2-35BB-3D13-4E8BAB93B7E0}" version="{761C8160-3E93-1FA7-2219-1D781D8DFD4A}">
+<PartFile name="link1 v1.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>789.73257036604105</Mass>
+<CenterOfMass>8.2654830594439327e-11 49.999999999999993 0</CenterOfMass>
+<Inertia>970229.57506274816 120410.64884727987 972180.3383551219 0 0 -5.1176175474860337e-11</Inertia>
+</MassProperties>
+<GeometryFile name="link1 v1_ipt_adbd4aa1.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.53000000000000003</Shininess>
+</VisualProperties>
+</Part>
+<Part name="link2 v1.ipt" uid="link2 v1.ipt_{9F15D74A-4D66-440B-52EE-8099DCC91158}" version="{BFEADCE6-99EC-8CEC-C924-483A3A57B5F5}">
+<PartFile name="link2 v1.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>872.63952469496223</Mass>
+<CenterOfMass>-1.2466307589461038e-11 53.164564160919937 0</CenterOfMass>
+<Inertia>793828.28144597868 190968.48879490473 737527.19717483618 0 -2.9243528842926023e-11 -5.7847261526703235e-07</Inertia>
+</MassProperties>
+<GeometryFile name="link2 v1_ipt_1b9f85bc.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.53000000000000003</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
